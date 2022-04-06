@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-DEMO : [https://pokemon-app-next-5wvlwat1m-aldytmra.vercel.app/](https://pokemon-app-next-5wvlwat1m-aldytmra.vercel.app/)
+DEMO : [https://pokemon-app-next-beta.vercel.app/](https://pokemon-app-next-beta.vercel.app/)
 
 ## Getting Started
 
