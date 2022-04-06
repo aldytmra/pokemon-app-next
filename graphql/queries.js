@@ -9,9 +9,12 @@ export const GET_POKEMONS = gql`
 			status
 			message
 			results {
+				id
 				url
 				name
 				image
+				artwork
+				dreamworld
 			}
 		}
 	}
@@ -23,6 +26,7 @@ export const GET_POKEMON_DETAIL = gql`
 			id
 			name
 			height
+			base_experience
 			weight
 			species {
 				name

@@ -1,13 +1,18 @@
 import { ApolloProvider } from '@apollo/client';
 import { useApollo } from '../graphql/apollo-client';
 import '../styles/globals.css';
+import { Provider } from '../context';
 
-export default function App({ Component, pageProps }) {
+function App({ Component, pageProps }) {
 	const apolloClient = useApollo(pageProps);
 
 	return (
 		<ApolloProvider client={apolloClient}>
-			<Component {...pageProps} />
+			<Provider>
+				<Component {...pageProps} />
+			</Provider>
 		</ApolloProvider>
 	);
 }
+
+export default App;

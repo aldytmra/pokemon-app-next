@@ -1,0 +1,2 @@
+export const UPDATE_MYPOKEMON = 'UPDATE_MYPOKEMON';
+export const INIT_DATA = 'INIT_DATA';
