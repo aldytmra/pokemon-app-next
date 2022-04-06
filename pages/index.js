@@ -67,7 +67,8 @@ function Index() {
 		if (str) {
 			const dataUsed = allData.filter(
 				(item) =>
-					item.name.includes(str) || pad(item.id.toString(), 4).includes(str)
+					item.name.includes(str.toLowerCase()) ||
+					pad(item.id.toString(), 4).includes(str.toLowerCase())
 			);
 			setDataFiltered(dataUsed);
 		} else {
